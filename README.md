@@ -1,12 +1,12 @@
-# Information-Mediated Chronocosmology: da-P Particle Framework
+# Information-Mediated Chronocosmology: Da-P Particle Framework
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16020104.svg)](https://doi.org/10.5281/zenodo.16020104)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Da-P-AIP/Da-P_Satulon/blob/main/demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Da-P-AIP/Da-P_Particle/blob/main/demo.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🚀 **BREAKTHROUGH**: 3D Ultra-Precise Critical Point ν = 0.34 ± 0.01
 
-**Progress Report v0.2** achieves **unprecedented 10⁻⁶ precision** in 3D systems, confirming **da-P particles** as a **new universality class** with **hybrid phase transition characteristics**.
+**Progress Report v0.2** achieves **unprecedented 10⁻⁶ precision** in 3D systems, confirming **Da-P Particles** as a **new universality class** with **hybrid phase transition characteristics**.
 
 ### **🏆 v0.2 Revolutionary 3D Achievements**
 - **3D Ultra-Precise Critical Point**: p_c(∞) = 0.009100 ± 0.000005 (10⁻⁶ precision)
@@ -33,7 +33,7 @@ Chronos (time) + Cosmology = Chronocosmology
 Information-mediated temporal emergence ↔ Cosmic evolution
 ```
 
-### **da-P Particles: Spacetime Information Carriers**
+### **Da-P Particles: Spacetime Information Carriers**
 - Bridge discrete Planck cells into continuous spacetime
 - Neutral scalar excitations (m ≲ 10⁻³⁵ kg, zero spin)
 - Enable quantum-to-classical transition through collective dynamics
@@ -42,15 +42,15 @@ Information-mediated temporal emergence ↔ Cosmic evolution
 ### **Experimental Predictions**
 - **Gamma-ray burst delays**: Δt ≃ 10⁻¹⁵ s × (E/GeV) × (L/Gpc)
 - **Gravitational wave dispersion**: Δv/v ∼ 10⁻²¹ for ~100 Hz signals
-- **Atomic clock fluctuations**: da-P particle density variations
+- **Atomic clock fluctuations**: Da-P Particle density variations
 - **Testable by**: Fermi LAT, Einstein Telescope, Cosmic Explorer
 
 ## 💻 **Quick Start**
 
 ### **Installation**
 ```bash
-git clone https://github.com/Da-P-AIP/Da-P_Satulon
-cd Da-P_Satulon
+git clone https://github.com/Da-P-AIP/Da-P_Particle
+cd Da-P_Particle
 pip install -r requirements.txt
 ```
 
@@ -63,7 +63,7 @@ python run_experiments.py --grid-size 64 --iterations 150 \
 ```
 
 ### **Interactive Demo**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Da-P-AIP/Da-P_Satulon/blob/main/demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Da-P-AIP/Da-P_Particle/blob/main/demo.ipynb)
 
 ## 📊 **Repository Structure**
 ```
@@ -94,12 +94,12 @@ python run_experiments.py --grid-size 64 --iterations 150 \
 ## 📚 **Publications & Documentation**
 
 ### **Progress Report v0.2** 
-> **"Interim 3-D and 4-D Results on da-P Particle Critical Behaviour"**  
+> **"Interim 3-D and 4-D Results on Da-P Particle Critical Behaviour"**  
 > 3D ultra-precise measurements establishing ν = 0.34 as new universality class  
 > Available: [`docs/progress_report_v0.2.pdf`](docs/progress_report_v0.2.pdf)
 
 ### **Primary Reference:**
-> Mazusaki, T. (2025). Information-Mediated Chronocosmology: da-P Particle Framework for Spacetime Connectivity and Novel Critical Phenomena (ν = 0.34). *Zenodo*. https://doi.org/10.5281/zenodo.16020104
+> Mazusaki, T. (2025). Information-Mediated Chronocosmology: Da-P Particle Framework for Spacetime Connectivity and Novel Critical Phenomena (ν = 0.34). *Zenodo*. https://doi.org/10.5281/zenodo.16020104
 
 ### **Data Availability**
 - **v0.2 3D Measurements**: [`data/v0.2_measurements/`](data/v0.2_measurements/)
@@ -125,7 +125,7 @@ python run_experiments.py --grid-size 64 --iterations 150 \
 
 ## 🤝 **Contributing**
 
-We welcome contributions to advance da-P particle research:
+We welcome contributions to advance Da-P Particle research:
 
 1. **Fork** the repository
 2. **Create** your feature branch (`git checkout -b feature/4d-extension`)
@@ -145,7 +145,7 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @misc{mazusaki2025chronocosmology,
-  title={Information-Mediated Chronocosmology: da-P Particle Framework for Spacetime Connectivity and Novel Critical Phenomena},
+  title={Information-Mediated Chronocosmology: Da-P Particle Framework for Spacetime Connectivity and Novel Critical Phenomena},
   author={Mazusaki, Tadashi},
   year={2025},
   publisher={Zenodo},
@@ -154,11 +154,11 @@ If you use this work in your research, please cite:
 }
 
 @misc{mazusaki2025progress,
-  title={Interim 3-D and 4-D Results on da-P Particle Critical Behaviour (Progress Report v0.2)},
+  title={Interim 3-D and 4-D Results on Da-P Particle Critical Behaviour (Progress Report v0.2)},
   author={Mazusaki, Tadashi},
   year={2025},
   howpublished={GitHub Repository},
-  url={https://github.com/Da-P-AIP/Da-P_Satulon/blob/main/docs/progress_report_v0.2.pdf}
+  url={https://github.com/Da-P-AIP/Da-P_Particle/blob/main/docs/progress_report_v0.2.pdf}
 }
 ```
 
@@ -178,15 +178,15 @@ The author acknowledges assistance from OpenAI GPT-4o and Anthropic Claude 4 Son
 
 ---
 
-**Keywords**: da-P particles, critical phenomena, universality class, hybrid phase transitions, cellular automata, GPU acceleration, 3D ultra-precise measurements
+**Keywords**: Da-P Particles, critical phenomena, universality class, hybrid phase transitions, cellular automata, GPU acceleration, 3D ultra-precise measurements
 
 ---
 
-# Da-P粒子 (Saturon) 理論プロジェクト / Da-P Particle Theory Project
+# Da-P粒子 (DICP) 理論プロジェクト / Da-P Particle Theory Project
 
 ## 日本語概要
 
-**Da-P粒子（Saturon）理論**は、プランク時間の実在性から論理的に導出される革新的な統一時空理論です。**Progress Report v0.2**により、3次元系において史上最高精度10⁻⁶での臨界点決定に成功し、新普遍性クラスの確立を達成しました。
+**Da-P粒子（DICP: Dimensional Information Cohesion Particle）理論**は、プランク時間の実在性から論理的に導出される革新的な統一時空理論です。**Progress Report v0.2**により、3次元系において史上最高精度10⁻⁶での臨界点決定に成功し、新普遍性クラスの確立を達成しました。
 
 ### 🌟 **v0.2 核心成果**
 
@@ -221,7 +221,7 @@ The author acknowledges assistance from OpenAI GPT-4o and Anthropic Claude 4 Son
 #### v0.2で精密化された予測
 - **γ線バースト遅延**: Δt ≃ 10⁻¹⁵ s × (E/GeV) × (L/Gpc) (3D理論による精度向上)
 - **重力波分散**: Δv/v ∼ 10⁻²¹ for ~100 Hz (4次元解析による補正準備)
-- **原子時計変動**: da-P粒子密度ゆらぎの3D具体的プロトコル確立
+- **原子時計変動**: Da-P粒子密度ゆらぎの3D具体的プロトコル確立
 
 #### 観測機器での検証可能性
 - **Fermi LAT**: v0.2の3D理論による予測値での検証準備完了
@@ -269,12 +269,12 @@ print(f"4D preliminary: p_c^4D = {results_4d['p_c_4d']:.6f}")
 #### 長期ビジョン（2-5年）
 - 3D・4D新普遍性クラス発見の認知
 - **パラダイムシフト**: 相転移理論の根本的変革
-- **技術革命**: da-P粒子工学の実用化
+- **技術革命**: Da-P粒子工学の実用化
 - **意識物理学**: 意識と時空接続の解明
 
 ### 🚀 **v0.2 → v1.0完全版への道筋**
 
-Progress Report v0.2の3次元革命的成果により、da-P粒子研究は決定的な段階に到達しました：
+Progress Report v0.2の3次元革命的成果により、Da-P粒子研究は決定的な段階に到達しました：
 
 1. **3D新普遍性クラス確立**: ν = 0.34 ± 0.01の確定的証明完了 ✅
 2. **3Dハイブリッド相転移**: 既存理論を超越した新概念の実証 ✅
@@ -285,6 +285,6 @@ Progress Report v0.2の3次元革命的成果により、da-P粒子研究は決�
 
 **🌟 Da-P粒子: 3次元での物理学革命達成 🌟**
 
-*v0.2により、da-P粒子は3次元系において理論的概念から実験的に検証された物理現象へと発展を遂げました。史上最精密な10⁻⁶精度での3次元臨界点決定により、この発見は現代物理学における最も重要な突破口の一つとして確立されています。*
+*v0.2により、Da-P粒子は3次元系において理論的概念から実験的に検証された物理現象へと発展を遂げました。史上最精密な10⁻⁶精度での3次元臨界点決定により、この発見は現代物理学における最も重要な突破口の一つとして確立されています。*
 
 **3D革命完了 → 次は4D拡張 → さらなる研究検証**
