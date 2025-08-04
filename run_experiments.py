@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Complete Experiment Runner for Da-P_Satulon CA-2D Research
+Complete Experiment Runner for Da-P_Particle CA-2D Research
 
 This script provides comprehensive automated parameter sweeping and result collection
 for studying information conductivity in 2D cellular automata.
@@ -200,7 +200,7 @@ def create_metadata(run_id: str, start_time: datetime, end_time: datetime,
             "memory_gb": round(os.sysconf('SC_PAGE_SIZE') * os.sysconf('SC_PHYS_PAGES') / (1024**3), 1) if hasattr(os, 'sysconf') else "unknown"
         },
         "software": {
-            "da_p_satulon_version": "1.0.0",
+            "da_p_particle_version": "1.0.0",
             "git_commit": git_commit,
             "git_branch": git_branch,
             "is_dirty": git_dirty
@@ -330,7 +330,7 @@ def main():
     """Main experiment runner implementing Issue #3 requirements"""
     args = parse_arguments()
     
-    print("=== Da-P_Satulon Enhanced Experiment Runner ===")
+    print("=== Da-P_Particle Enhanced Experiment Runner ===")
     print("Issue #3 Implementation: Full CLI + Issue #2 Data Format + GIF Generation")
     print(f"Grid size: {args.grid_size}×{args.grid_size}")
     print(f"Iterations: {args.iterations}")
