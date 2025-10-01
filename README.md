@@ -81,3 +81,93 @@ NumPy >= 1.20
 SciPy >= 1.7
 Matplotlib >= 3.3
 mpi4py >= 3.0 (optional, for parallel computing)
+Quick Start
+bashgit clone https://github.com/Da-P-AIP/Da-P_Satulon.git
+cd Da-P_Satulon
+pip install -r requirements.txt
+python examples/basic_simulation.py
+
+📖 Documentation
+For General Audience
+Start with the General Background Document which explains:
+
+What is the Planck-Continuous Cosmos?
+Why is there a speed of light limit?
+How do we experience time and motion?
+Observable effects and predictions
+
+For Researchers
+See the Technical Document for:
+
+Mathematical formulations
+Field-theoretic descriptions
+Numerical simulation methods
+Experimental verification proposals
+
+
+🔧 Code Structure
+Da-P_Satulon/
+├── src/
+│   ├── core/           # Core lattice and POSP implementations
+│   ├── analysis/       # Critical phenomena analysis tools
+│   ├── visualization/  # Plotting and visualization
+│   └── utils/          # Utility functions
+├── examples/
+│   ├── basic_simulation.py
+│   ├── critical_point_detection.py
+│   └── finite_size_scaling.py
+├── data/               # Raw simulation data
+├── notebooks/          # Jupyter analysis notebooks
+└── tests/              # Unit tests
+
+📈 Current Status
+Version: 1.0 (October 2025)
+Status: Working hypothesis under active investigation
+Key Results (Provisional):
+
+3D critical point: p_c ≈ 0.023-0.025
+Critical exponents: β ≈ 0.235, ν ≈ 1.222, z ≈ 0
+New universality class (distinct from percolation/Ising)
+
+⚠️ Note: All numerical values are subject to revision pending further analysis.
+
+🤝 Contributing
+This is an open research project. Contributions are welcome:
+
+Fork the repository
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+
+
+📧 Contact
+Author: Mazusaki Tadashi (Independent Researcher)
+Issues: Please use GitHub Issues
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+Documents are published under CC BY 4.0.
+
+📚 Citation
+If you use this work in your research, please cite:
+bibtex@techreport{mazusaki2025planck,
+  title={Planck-Continuous Cosmos Hypothesis: Background Documents},
+  author={Mazusaki, Tadashi},
+  year={2025},
+  institution={Independent Research},
+  doi={10.5281/zenodo.17244558},
+  url={https://github.com/Da-P-AIP/Da-P_Satulon}
+}
+
+🙏 Acknowledgments
+This research was conducted with AI assistance (ChatGPT, Claude) for document preparation and analysis support.
+
+🔗 Related Links
+
+Project Website (if available)
+Discussion Forum
+Latest Updates
+
+
+Last Updated: October 2025
