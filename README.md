@@ -1,173 +1,233 @@
 # Da-P Particle Theory (DICP)
+
 ## Planck-Continuous Cosmos Hypothesis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-A theoretical framework proposing that spacetime consists of discrete Planck-scale cells bound by Dimensional Information Cohesion Particles (DICP, Da-P particles), explaining relativistic phenomena through the Planck-Occupancy Saturation Principle (POSP).
+Da-P Particle Theory proposes a theoretical framework in which spacetime is modeled as a network of Planck-scale information-cohesion cells bound by Dimensional Information Cohesion Particles (DICP, Da-P particles). The framework is currently a working hypothesis under active revision.
+
+This repository collects background documents, corrected numerical notes, and theoretical extensions of the Da-P / DICP framework.
 
 ---
 
-## 📚 Published Documents
+## 2026 Update: Corrected Reverification and Cosmological Residual Hypothesis
+
+Two new Zenodo records were published on 2026-06-02:
+
+| Record | DOI | Local note |
+|--------|-----|------------|
+| Corrected 2025 reverification dataset for the Da-P / DICP 3D asymmetric model | https://doi.org/10.5281/zenodo.20510158 | [docs/DaP_2025_Reverification_Update.md](docs/DaP_2025_Reverification_Update.md) |
+| Da-P Cosmological Constant Residual Hypothesis | https://doi.org/10.5281/zenodo.20510743 | [docs/DaP_Cosmological_Constant_Residual_Hypothesis.md](docs/DaP_Cosmological_Constant_Residual_Hypothesis.md) |
+
+Important status note:
+
+- Earlier numerical claims were invalidated in the prior Zenodo record: https://doi.org/10.5281/zenodo.16780090
+- The corrected 2025 reverification dataset should be treated as a post-invalidation research dataset and preliminary analysis.
+- The current finite-size scaling result is a candidate anomalous scaling behavior, not final proof of a new universality class.
+- The cosmological constant residual hypothesis is a theoretical reformulation and does not claim to solve the cosmological constant problem.
+
+---
+
+## Published Background Documents
 
 ### Background Documents (v1.0 - October 2025)
 
 | Language | Audience | DOI | PDF |
 |----------|----------|-----|-----|
-| 日本語 | 一般向け | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17244161.svg)](https://doi.org/10.5281/zenodo.17244161) | [Download](https://zenodo.org/records/17244161) |
-| English | General | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17244360.svg)](https://doi.org/10.5281/zenodo.17244360) | [Download](https://zenodo.org/records/17244360) |
-| 日本語 | 研究者向け | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17244506.svg)](https://doi.org/10.5281/zenodo.17244506) | [Download](https://zenodo.org/records/17244506) |
-| English | Technical | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17244558.svg)](https://doi.org/10.5281/zenodo.17244558) | [Download](https://zenodo.org/records/17244558) |
+| Japanese | General | [10.5281/zenodo.17244161](https://doi.org/10.5281/zenodo.17244161) | [Download](https://zenodo.org/records/17244161) |
+| English | General | [10.5281/zenodo.17244360](https://doi.org/10.5281/zenodo.17244360) | [Download](https://zenodo.org/records/17244360) |
+| Japanese | Technical | [10.5281/zenodo.17244506](https://doi.org/10.5281/zenodo.17244506) | [Download](https://zenodo.org/records/17244506) |
+| English | Technical | [10.5281/zenodo.17244558](https://doi.org/10.5281/zenodo.17244558) | [Download](https://zenodo.org/records/17244558) |
 
 ---
 
-## 🎯 Overview
+## Overview
 
-The Planck-Continuous Cosmos Hypothesis proposes three key concepts:
+The Planck-Continuous Cosmos Hypothesis proposes three broad concepts:
 
-1. **Discrete Spacetime Structure**
-   - Universe composed of Planck-scale cells (ℓ_P ≈ 10⁻³⁵ m)
-   - 4D lattice: Λ = ℤ³ × ℤ (space × time)
+1. Discrete spacetime structure
+   - The universe is modeled as Planck-scale cells.
+   - Spacetime continuity is interpreted as an emergent network state.
 
-2. **Planck-Occupancy Saturation Principle (POSP)**
-   - Explains speed of light limit through cell occupancy
-   - R = n/n_max, γ(R) = 1/√(1-R²)
+2. Planck-Occupancy Saturation Principle (POSP)
+   - Relativistic limits are explored through cell occupancy and saturation.
+   - The speed of light is interpreted as a structural propagation limit.
 
-3. **Da-P Particles (DICP)**
-   - Neutral scalar particles binding spacetime cells
-   - Mediate information transfer between cell-frames
-   - Split-twin effect across dimensions
-
----
-
-## 🔬 Key Features
-
-### Theoretical Framework
-- Mathematical formulation of discrete spacetime
-- Field-theoretic description of DICP
-- Critical phenomena analysis (β ≈ 0.235, ν ≈ 1.222)
-- Information mapping mechanism: Ψ(t+t_P) = F[Ψ(t)]
-
-### Observable Predictions
-- Gamma-ray burst arrival time delays
-- Gravitational wave dispersion
-- Modified atomic clock behavior
-- Cosmic microwave background anomalies
-
-### Numerical Simulations
-- Monte Carlo methods for critical point detection
-- Finite-size scaling analysis
-- MPI parallelization support
-- GPU-accelerated computations
+3. Da-P Particles / DICP
+   - Da-P particles are proposed as neutral information-cohesion agents.
+   - They mediate cell-to-cell or frame-to-frame information binding.
+   - Their role is theoretical and has not been experimentally confirmed.
 
 ---
 
-## 📊 Data Repository
+## Current Numerical Status
 
-### Numerical Datasets (Zenodo)
-- [Dataset 1](https://zenodo.org/records/15760964) - Initial percolation analysis
-- [Dataset 2](https://zenodo.org/records/16020104) - Critical exponent measurements
-- [Dataset 3](https://zenodo.org/records/16302341) - Finite-size scaling
-- [Dataset 4](https://zenodo.org/records/16522221) - Latest analysis (L=128)
+The corrected 2025 reverification dataset reports candidate susceptibility finite-size scaling for the corrected 3D asymmetric model:
+
+```text
+chi_max ~ L^(gamma/nu)
+gamma/nu ~= 2.965
+R^2 ~= 0.999997
+```
+
+Available corrected system sizes:
+
+| L | Runs | Steps | Peak p* | chi_max |
+|---|------|-------|---------|---------|
+| 80 | 500 | 20000 | 0.031225 | 9908.2 |
+| 96 | 500 | 20000 | 0.029465 | 16975.7 |
+| 128 | 500 | 20000 | 0.026650 | 39906.5 |
+
+Limitations:
+
+- Only three high-statistics system sizes are currently available.
+- Estimates of `p_c(infinity)` and `nu` remain unstable.
+- Additional sizes, independent implementation checks, and bootstrap or jackknife uncertainty analysis are needed.
 
 ---
 
-## 💻 Installation
+## Cosmological Constant Residual Hypothesis
 
-### Requirements
+The Da-P Cosmological Constant Residual Hypothesis proposes that the cosmological constant `Lambda` may be interpreted as a global residual from imperfect synchronization of a Da-P information-cohesion network.
+
+Candidate reformulation:
+
+```text
+Lambda = global residual of spacetime information-cohesion synchronization
+```
+
+Candidate scaling relation:
+
+```text
+Lambda_DaP * ell_P^2 ~ <(delta C / C)^2>_global ~ (ell_P / L_U)^2
+```
+
+This is a hypothesis and conceptual reformulation. It does not claim a completed derivation of the observed cosmological constant.
+
+See:
+
+- [docs/DaP_Cosmological_Constant_Residual_Hypothesis.md](docs/DaP_Cosmological_Constant_Residual_Hypothesis.md)
+- Zenodo DOI: https://doi.org/10.5281/zenodo.20510743
+
+---
+
+## Data Repository
+
+### Zenodo Records
+
+| Record | Description | DOI |
+|--------|-------------|-----|
+| v1 | Initial percolation analysis | https://doi.org/10.5281/zenodo.15760964 |
+| v2 | Critical exponent measurements | https://doi.org/10.5281/zenodo.16020104 |
+| v3 | Finite-size scaling | https://doi.org/10.5281/zenodo.16302341 |
+| v4 | Later analysis | https://doi.org/10.5281/zenodo.16522221 |
+| v5 | Invalidation of previous 3D numerical claims | https://doi.org/10.5281/zenodo.16780090 |
+| 2025 reverification | Corrected post-invalidation dataset | https://doi.org/10.5281/zenodo.20510158 |
+| hypothesis-v1 | Cosmological constant residual hypothesis | https://doi.org/10.5281/zenodo.20510743 |
+
+---
+
+## Installation
+
 ```bash
-Python >= 3.8
-NumPy >= 1.20
-SciPy >= 1.7
-Matplotlib >= 3.3
-mpi4py >= 3.0 (optional, for parallel computing)
-Quick Start
-bashgit clone https://github.com/Da-P-AIP/Da-P_Satulon.git
-cd Da-P_Satulon
+git clone https://github.com/Da-P-AIP/Da-P_Particle.git
+cd Da-P_Particle
 pip install -r requirements.txt
-python examples/basic_simulation.py
+```
 
-📖 Documentation
-For General Audience
-Start with the General Background Document which explains:
+If example scripts are available in your local checkout, run the relevant script from the `examples/` or analysis directory. The repository contents are under active revision.
 
-What is the Planck-Continuous Cosmos?
-Why is there a speed of light limit?
-How do we experience time and motion?
-Observable effects and predictions
+---
 
-For Researchers
-See the Technical Document for:
+## Documentation
 
-Mathematical formulations
-Field-theoretic descriptions
-Numerical simulation methods
-Experimental verification proposals
+For background documents, see the Zenodo records listed above.
 
+For current update notes, see:
 
-🔧 Code Structure
-Da-P_Satulon/
-├── src/
-│   ├── core/           # Core lattice and POSP implementations
-│   ├── analysis/       # Critical phenomena analysis tools
-│   ├── visualization/  # Plotting and visualization
-│   └── utils/          # Utility functions
-├── examples/
-│   ├── basic_simulation.py
-│   ├── critical_point_detection.py
-│   └── finite_size_scaling.py
-├── data/               # Raw simulation data
-├── notebooks/          # Jupyter analysis notebooks
-└── tests/              # Unit tests
+- [docs/DaP_2025_Reverification_Update.md](docs/DaP_2025_Reverification_Update.md)
+- [docs/DaP_Cosmological_Constant_Residual_Hypothesis.md](docs/DaP_Cosmological_Constant_Residual_Hypothesis.md)
 
-📈 Current Status
-Version: 1.0 (October 2025)
-Status: Working hypothesis under active investigation
-Key Results (Provisional):
+---
 
-3D critical point: p_c ≈ 0.023-0.025
-Critical exponents: β ≈ 0.235, ν ≈ 1.222, z ≈ 0
-New universality class (distinct from percolation/Ising)
+## Research Status
 
-⚠️ Note: All numerical values are subject to revision pending further analysis.
+Version status: active working hypothesis under revision.
 
-🤝 Contributing
-This is an open research project. Contributions are welcome:
+The Da-P / DICP framework remains speculative. Numerical results and theoretical interpretations should be treated as provisional unless independently reproduced and validated.
 
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+Recommended next steps:
 
+1. Reproduce the corrected 2025 numerical results independently.
+2. Add more system sizes for finite-size scaling analysis.
+3. Separate raw, survival-conditioned, and corrected observables.
+4. Test whether global residuals in Da-P-like networks scale as `L^-2`.
+5. Compare cosmological-residual predictions with observational constraints.
 
-📧 Contact
-Author: Mazusaki Tadashi (Independent Researcher)
-Issues: Please use GitHub Issues
+---
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-Documents are published under CC BY 4.0.
+## Contributing
 
-📚 Citation
-If you use this work in your research, please cite:
-bibtex@techreport{mazusaki2025planck,
-  title={Planck-Continuous Cosmos Hypothesis: Background Documents},
-  author={Mazusaki, Tadashi},
-  year={2025},
-  institution={Independent Research},
-  doi={10.5281/zenodo.17244558},
-  url={https://github.com/Da-P-AIP/Da-P_Satulon}
+This is an open research project. Contributions are welcome through issues, discussions, reproducibility checks, and pull requests.
+
+Suggested contribution areas:
+
+- Independent code review and simulation reproduction.
+- Additional finite-size scaling analysis.
+- Documentation cleanup.
+- Mathematical formalization of the Da-P information-cohesion framework.
+- Critical review of the cosmological constant residual hypothesis.
+
+---
+
+## Contact
+
+Author: Tadashi Mazusaki  
+Repository: https://github.com/Da-P-AIP/Da-P_Particle
+
+---
+
+## License
+
+Code in this repository is licensed under the MIT License unless otherwise noted.
+
+Documents are published under Creative Commons Attribution 4.0 International (CC BY 4.0) unless otherwise noted.
+
+---
+
+## Citation
+
+For the corrected 2025 dataset:
+
+```bibtex
+@dataset{mazusaki2026reverification,
+  title = {Corrected 2025 Reverification Results for the Da-P/DICP 3D Asymmetric Model: Candidate Anomalous Finite-Size Scaling},
+  author = {Mazusaki, Tadashi},
+  year = {2026},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.20510158},
+  url = {https://doi.org/10.5281/zenodo.20510158}
 }
+```
 
-🙏 Acknowledgments
-This research was conducted with AI assistance (ChatGPT, Claude) for document preparation and analysis support.
+For the cosmological constant residual hypothesis:
 
-🔗 Related Links
+```bibtex
+@misc{mazusaki2026cosmological_residual,
+  title = {The Da-P Cosmological Constant Residual Hypothesis: A Candidate Information-Cohesion Interpretation of Lambda},
+  author = {Mazusaki, Tadashi},
+  year = {2026},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.20510743},
+  url = {https://doi.org/10.5281/zenodo.20510743}
+}
+```
 
-Project Website (if available)
-Discussion Forum
-Latest Updates
+---
 
+## Acknowledgments
 
-Last Updated: October 2025
+This research was conducted with AI assistance for document preparation, numerical-analysis support, and research-organization workflows.
+
+Last updated: 2026-06-02
